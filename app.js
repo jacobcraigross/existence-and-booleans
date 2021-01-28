@@ -1,4 +1,4 @@
-var a;
+let a;
 // a is set to undef. during the creation phase of the exec. context
 
 a = null;
@@ -19,7 +19,7 @@ if (a){
 
 // another example.
 
-var a = 0;
+let a = 0;
 
 if (a || a === 0){
   console.log("something is there");
